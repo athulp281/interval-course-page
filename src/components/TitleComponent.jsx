@@ -16,8 +16,7 @@ const TitleComponent = () => {
                             fontFamily: "Bitter, serif",
                         }}
                     >
-                        Online full curriculum courses for
-                        <br /> kids & teens
+                        Online full curriculum courses for kids & teens
                     </Typography>
                 </Box>
                 <Box sx={{ textAlign: "left", mt: 3 }}>

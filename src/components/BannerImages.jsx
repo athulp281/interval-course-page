@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import bg from "../assets/images/bg.png";
 
 const AnimatedBox = motion(Box);
 
@@ -11,10 +12,10 @@ const BannerImages = () => {
             <Box position="relative">
                 <Box
                     sx={{
-                        height: 410,
-                        width: 480,
+                        height: 500,
+                        width: 550,
                         backgroundSize: "cover",
-                        backgroundImage: `url(/images/bgimg.png)`,
+                        backgroundImage: `url(/images/bg.png)`,
                         backgroundRepeat: "no-repeat",
                     }}
                 >
@@ -22,7 +23,7 @@ const BannerImages = () => {
                         sx={{
                             display: "flex",
                             justifyContent: "center",
-                            pt: 12,
+                            pt: 15,
                         }}
                     >
                         <Image
