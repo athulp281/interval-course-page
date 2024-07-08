@@ -1,20 +1,20 @@
-// hooks/useScrollReveal.js
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
 const useScrollReveal = () => {
     useEffect(() => {
-        const sr = ScrollReveal({
-            origin: "bottom",
-            distance: "50px",
-            duration: 1000,
-            delay: 300,
-            reset: false,
-        });
+        if (typeof window !== "undefined") {
+            const sr = ScrollReveal({
+                origin: "bottom",
+                distance: "50px",
+                duration: 2000,
+                reset: true,
+            });
 
-        sr.reveal(".reveal", {
-            interval: 200,
-        });
+            sr.reveal(".reveal", {
+                interval: 200,
+            });
+        }
     }, []);
 };
 

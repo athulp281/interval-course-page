@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <>
-            {/* <NavBar />
+            <NavBar />
             <div className="reveal">
                 <HeroSections />
             </div>
@@ -37,9 +37,9 @@ export default function Home() {
             <div className="reveal">
                 <ArticleSection />
             </div>
-            <Footer /> */}
+            <Footer />
 
-            <NavBar />
+            {/* <NavBar />
 
             <HeroSections />
 
@@ -55,7 +55,7 @@ export default function Home() {
 
             <ArticleSection />
 
-            <Footer />
+            <Footer /> */}
         </>
     );
 }
