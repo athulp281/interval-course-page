@@ -25,7 +25,7 @@ const LearnerAgeRadioButtons = () => {
                                 fontWeight: "bolder",
                             }}
                         >
-                            Learner's age
+                            Learner&apos;s age
                         </Typography>
                     </FormLabel>
                     <RadioGroup row aria-label="learner-age" name="learner-age">
@@ -43,7 +43,7 @@ const LearnerAgeRadioButtons = () => {
                             control={<Radio />}
                             label={
                                 <Typography style={{ fontWeight: "bold" }}>
-                                    9-6
+                                    6-9
                                 </Typography>
                             }
                         />
