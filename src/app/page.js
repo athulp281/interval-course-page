@@ -10,7 +10,7 @@ import QuickGuidSection from "@/sections/QuickGuid/QuickGuidSection";
 import ReviewSection from "@/sections/ReviewSection/ReviewSection";
 import TopCourses from "@/sections/TopCourses/TopCourses";
 import useScrollReveal from "../hooks/useScrollReveal";
-import Loader3D from "@/components/Loader";
+// import Loader3D from "@/components/Loader";
 
 export default function Home() {
     const [loading, setLoading] = useState(true);
