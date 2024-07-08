@@ -15,33 +15,47 @@ export default function Home() {
 
     return (
         <>
-            <>
-                <NavBar />
+            {/* <NavBar />
+            <div className="reveal">
+                <HeroSections />
+            </div>
+            <div className="reveal">
+                <TopCourses />
+            </div>
+            <div className="reveal">
+                <FeaturedCourse />
+            </div>
+            <div className="reveal">
+                <QuickGuidSection />
+            </div>
+            <div className="reveal">
+                <ReviewSection />
+            </div>
+            <div className="reveal">
+                <FindMoreCourse />
+            </div>
+            <div className="reveal">
+                <ArticleSection />
+            </div>
+            <Footer /> */}
 
-                <div className="reveal">
-                    <HeroSections />
-                </div>
-                <div className="reveal">
-                    <TopCourses />
-                </div>
-                <div className="reveal">
-                    <FeaturedCourse />
-                </div>
-                <div className="reveal">
-                    <QuickGuidSection />
-                </div>
-                <div className="reveal">
-                    <ReviewSection />
-                </div>
-                <div className="reveal">
-                    <FindMoreCourse />
-                </div>
-                <div className="reveal">
-                    <ArticleSection />
-                </div>
+            <NavBar />
 
-                <Footer />
-            </>
+            <HeroSections />
+
+            <TopCourses />
+
+            <FeaturedCourse />
+
+            <QuickGuidSection />
+
+            <ReviewSection />
+
+            <FindMoreCourse />
+
+            <ArticleSection />
+
+            <Footer />
         </>
     );
 }
