@@ -129,7 +129,7 @@ export default function CourseCard({ data }) {
                 <Box
                     component="img"
                     src={`${data.logo}`}
-                    alt="green iguana"
+                    alt="logo"
                     sx={{
                         position: "absolute",
                         top: -20,

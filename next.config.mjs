@@ -7,6 +7,7 @@ const nextConfig = {
             "images.ctfassets.net",
             "localhost",
             "static.outschool.com",
+            "www.teaminterval.ae",
         ],
     },
 };
