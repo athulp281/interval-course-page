@@ -80,7 +80,7 @@ export default function CourseCard({ data }) {
                                                 width={50}
                                                 alt="logo"
                                                 src={
-                                                    "http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmap.833a8a9f.gif&w=1080&q=75"
+                                                    "https://www.intervaledu.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmap.833a8a9f.gif&w=1080&q=75"
                                                 }
                                             />
                                         </Box>
