@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import { Box, Container, Stack } from "@mui/material";
 import { styled } from "@mui/system";
@@ -37,7 +36,7 @@ const Head = () => {
                 <Root>
                     <StyledContainer>
                         <Stack direction={"row"} spacing={2}>
-                            <Box>
+                            <Box pt={7}>
                                 {mounted && (
                                     <>
                                         <Box mb={1}>
