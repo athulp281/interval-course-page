@@ -9,7 +9,6 @@ const ReviewCard = () => {
                     sx={{
                         width: 400,
                         backgroundColor: "#f6f6f8",
-                        // height: 200,
                         borderRadius: 4,
                     }}
                 >

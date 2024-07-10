@@ -28,7 +28,6 @@ export default function MyAppBar() {
                     </Typography>
                 </Toolbar>
             </AppBar>
-            {/* Adding a spacer to account for the fixed AppBar */}
             <Toolbar />
         </Box>
     );

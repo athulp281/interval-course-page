@@ -50,13 +50,6 @@ const Card = () => {
                                                 </Box>
                                             </Box>
                                         </Box>
-
-                                        {/* <h2 className="card-front__heading">
-                                           
-                                        </h2> */}
-                                        {/* <p className="card-front__text-price">
-                                            From £29
-                                        </p> */}
                                     </Box>
 
                                     <Box className="card-front__bt">

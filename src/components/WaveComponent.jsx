@@ -7,7 +7,6 @@ const WaveComponent = () => {
             sx={{
                 position: "relative",
                 pt: 18,
-                // pb: 4,
                 overflow: "hidden",
                 "::before": {
                     content: '""',

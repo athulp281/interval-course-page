@@ -2,7 +2,6 @@ import { Box } from "@mui/material";
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import bg from "../assets/images/bg.png";
 
 const AnimatedBox = motion(Box);
 
@@ -65,7 +64,6 @@ const BannerImages = () => {
                     }}
                 >
                     <Image
-                        // style={{ borderRadius: "50%" }}
                         src={
                             "https://static.outschool.com/master/main/public/images/curated-hero-section-squiggle.2ad5d6313d99fbc568a45aff157575cf.svg"
                         }
@@ -80,5 +78,3 @@ const BannerImages = () => {
 };
 
 export default BannerImages;
-
-// "https://static.outschool.com/master/main/public/images/curated-hero-section-blob.a0ec93c36fc10ea36bff0dadd33556d8.png"
